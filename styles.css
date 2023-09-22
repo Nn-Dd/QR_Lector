@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This sets the body to take up the full viewport height */
+  flex-direction: column;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  height: 550px;
+  max-width: 100%; /* To ensure the card doesn't exceed the viewport width */
+  margin-bottom: 2%;
+}
+
+img {
+  border-radius: 16px;
+  margin-top: 5%;
+}
+.text {
+  display: flex;
+  flex-direction: column; /* Ensure text content is stacked vertically */
+  align-items: center; /* Center text horizontally */
+  justify-content: center; /* Center text vertically */
+  text-align: center; /* Center text within its container */
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.h1-bold {
+  font-weight: bold;
+  font-size: 22px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
